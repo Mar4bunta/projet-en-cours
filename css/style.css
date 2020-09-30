@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+@import url('panneau.css');
+@import url('cards.css');
+@import url('panier.css');
+
+.font{
+    font-family: 'Uncial Antiqua', cursive;
+}
+.logo{
+    width: 25%;
+}
+.header{
+    padding: 0;
+}
+.navbar{
+    background-color: #2B230D;
+    border-bottom: solid 1px #FFCB00;
+    height: 10vh;
+    padding: 0;
+    z-index: 15;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+}
+.navbar ul li a{
+    color: #FFCB00;
+    text-decoration: none;
+}
+.navbar-fixe{
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    animation: smoothScroll 1s forwards;
+}
+@keyframes smoothScroll {
+	0% {
+		transform: translateY(-40px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+.panneauxFix{
+    padding-top: 10vh;
+}
+.contFldBg{
+    background-color: #1a131b;
+}
+
+.footer{
+    height: 10%;
+    color:#FFCB00;
+    background-color: #2B230D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+}

@@ -1,0 +1,79 @@
+.modalPanier{
+    background-color:rgba(48, 48, 48, 0.3);
+    color: white;
+}
+.modalStyle{
+    background-color:#2B230D;
+}
+.modal-header{
+    border-bottom: solid 1px #FFCB00;
+}
+.modal-title{
+    font-weight: 600 ;
+}
+.x{
+    color: #FFCB00;
+}
+.modal-footer{
+    border-top: solid 1px #FFCB00;
+}
+.btnCustom{
+    padding: .375rem .75rem;
+    border: 1px solid;
+    border-radius: .25rem;
+    background-color: transparent;
+}
+.btnCustom:focus{
+    outline: none;
+}
+.confirmer{
+    color: #7896BB;
+    border-color: #7896BB;
+}
+.viderPanier{
+    color: #A70D0F;
+    border-color: #A70D0F;
+}
+.confirmer:hover{
+    background-color: #7896BB;
+    color:whitesmoke;
+    border-color: #7896BB;
+}
+.viderPanier:hover{
+    background-color:#A70D0F;
+    color:whitesmoke;
+    border-color: #A70D0F;
+}
+.voirPanier{
+    color: #FFCB00;
+    background-color: #2B230D;
+    border-color:#FFCB00;
+    position: fixed;
+    top: 13%;
+    left: 3%;
+}
+.voirPanier:hover{
+    color: #FFCB00;
+    background-color:#1A131B;
+    border-color: #FFCB00;
+}
+
+.tablePanier{
+    background-color: #2B230D;
+    display: none;
+}
+.table-dark td, .table-dark th, .table-dark thead th{
+    border-color: #FFCB00;
+}
+.table thead th{
+    border: transparent;
+}
+.voirPanier:focus{
+    box-shadow: none;
+}
+.panierVide{
+    display: none;
+}
+.visible{
+    display: block;
+}
